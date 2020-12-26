@@ -14,9 +14,9 @@
       <pubDate>Sat, 26 Dec 2020 16:03:51 +0100</pubDate>
       
       <guid>https://jaweyl.github.io/jaweyl/posts/2020/12/how-to-make-a-static-website/</guid>
-      <description>Introduction I this article I&amp;rsquo;ll explain how I build my first website using the static site generator Hugo.
-My main goal was to build a website were I can write articles about topics I&amp;rsquo;m interested in. First let&amp;rsquo;s talk about some requirements I had in the first place:
- Write articles with a markup language (Markdown) Minimalistic, fast and good looking Inexpensive  In general a static site generator builds a webpage which is delivered to the user exactly as it is stored.</description>
+      <description>Introduction In this article I&amp;rsquo;ll explain how I build my first website using the static site generator Hugo. We&amp;rsquo;ll discuss how to build your personal website locally and publish it.
+My main goal was to build a website to write articles about topics I&amp;rsquo;m interested in. First let&amp;rsquo;s talk about some requirements I had in the first place:
+ Write articles with a markup language (Markdown) Minimalistic, fast and good looking Inexpensive  In general a static site generator builds a website which is delivered to the user exactly as it is stored.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@ My main goal was to build a website were I can write articles about topics I&amp
       
       <guid>https://jaweyl.github.io/jaweyl/about/</guid>
       <description>Cheers,
-My name is Jan Weyler and on this homepage I&amp;rsquo;ll post artciles about stuff that&amp;rsquo;s of my interst. I hope writing those articles helps me to better understand and rember certain topics and maybe it is also useful for other people like you.</description>
+My name is Jan Weyler and on this homepage I&amp;rsquo;ll post artciles about stuff that&amp;rsquo;s of my interst. I hope writing those articles helps me to better understand and rember certain topics and maybe it is also useful for other people - like you.</description>
     </item>
     
   </channel>
