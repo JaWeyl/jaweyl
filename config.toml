@@ -60,7 +60,7 @@ description = "Personal homepage"
 images = [""]
 keywords = ""
 
-homeSubtitle = "Personal Homepage"
+homeSubtitle = "Personal homepage"
 
 # Prefix of link to the git commit detail page. GitInfo must be enabled.
 #
@@ -147,7 +147,7 @@ url = "mailto:jan.weyler@googlemail.com"
 [languages]
 [languages.en]
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-subtitle = "Hello Friend NG Theme"
+subtitle = "Personal homepage"
 weight = 1
 
 # [languages.fr]
