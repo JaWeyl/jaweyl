@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/posts/2020/12/00001-first-post/</loc>
+    <loc>https://jaweyl.github.io/jaweyl/posts/2020/12/00001-first-post/</loc>
     <lastmod>2020-12-26T16:03:51+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://jaweyl.github.io/jaweyl/</loc>
     <lastmod>2020-12-26T16:03:51+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://jaweyl.github.io/jaweyl/posts/</loc>
     <lastmod>2020-12-26T16:03:51+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://jaweyl.github.io/jaweyl/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://jaweyl.github.io/jaweyl/categories/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/series/</loc>
+    <loc>https://jaweyl.github.io/jaweyl/series/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://jaweyl.github.io/jaweyl/tags/</loc>
   </url>
   
 </urlset>
