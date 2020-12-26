@@ -1,4 +1,4 @@
-baseURL = "https://jaweyl.github.io/jaweyl/"
+baseurl = "https://jaweyl.github.io/jaweyl/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 title = "Jan Weyler"
