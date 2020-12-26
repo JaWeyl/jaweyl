@@ -9,12 +9,14 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 26 Dec 2020 16:03:51 +0100</lastBuildDate><atom:link href="https://jaweyl.github.io/jaweyl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>00001 First Post</title>
-      <link>https://jaweyl.github.io/jaweyl/posts/2020/12/00001-first-post/</link>
+      <title>How to make a static website</title>
+      <link>https://jaweyl.github.io/jaweyl/posts/2020/12/how-to-make-a-static-website/</link>
       <pubDate>Sat, 26 Dec 2020 16:03:51 +0100</pubDate>
       
-      <guid>https://jaweyl.github.io/jaweyl/posts/2020/12/00001-first-post/</guid>
-      <description>Preview Thanks to GeekLaunch for an excellent tutorial about how to build a static website using Hugo.</description>
+      <guid>https://jaweyl.github.io/jaweyl/posts/2020/12/how-to-make-a-static-website/</guid>
+      <description>Introduction I this article I&amp;rsquo;ll explain how I build my first website using the static site generator Hugo.
+My main goal was to build a website were I can write articles about topics I&amp;rsquo;m interested in. First let&amp;rsquo;s talk about some requirements I had in the first place:
+ Write articles with a markup language (Markdown) Minimalistic, fast and good looking Inexpensive  In general a static site generator builds a webpage which is delivered to the user exactly as it is stored.</description>
     </item>
     
     <item>
