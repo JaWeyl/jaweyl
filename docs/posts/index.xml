@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Jan Weyler</title>
+        <link>https://example.com/posts/</link>
+        <description>Recent content in Posts on Jan Weyler</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sat, 26 Dec 2020 16:03:51 +0100</lastBuildDate>
+        <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>00001 First Post</title>
+            <link>https://example.com/posts/2020/12/00001-first-post/</link>
+            <pubDate>Sat, 26 Dec 2020 16:03:51 +0100</pubDate>
+            
+            <guid>https://example.com/posts/2020/12/00001-first-post/</guid>
+            <description>Preview Thanks to GeekLaunch for an excellent tutorial about how to build a static website using Hugo.</description>
+            <content type="html"><![CDATA[<h1 id="preview">Preview</h1>
+<p>Thanks to <a href="https://www.youtube.com/watch?v=3wkR8GyDODs">GeekLaunch</a> for an excellent tutorial about how to build a <em>static website</em> using <a href="https://gohugo.io">Hugo</a>.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

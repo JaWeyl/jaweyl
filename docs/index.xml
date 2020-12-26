@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jan Weyler</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Jan Weyler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 26 Dec 2020 16:03:51 +0100</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>00001 First Post</title>
+      <link>https://example.com/posts/2020/12/00001-first-post/</link>
+      <pubDate>Sat, 26 Dec 2020 16:03:51 +0100</pubDate>
+      
+      <guid>https://example.com/posts/2020/12/00001-first-post/</guid>
+      <description>Preview Thanks to GeekLaunch for an excellent tutorial about how to build a static website using Hugo.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>Cheers,
+My name is Jan Weyler and on this homepage I&amp;rsquo;ll post artciles about stuff that&amp;rsquo;s of my interst. I hope writing those articles helps me to better understand and rember certain topics and maybe it is also useful for other people like you.</description>
+    </item>
+    
+  </channel>
+</rss>
