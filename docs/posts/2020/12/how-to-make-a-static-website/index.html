@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Jan Weyler ">
-<meta name="description" content="Introduction In this article I&amp;rsquo;ll explain how I build my first website using the static site generator Hugo. We&amp;rsquo;ll discuss how to build your personal website locally and publish it.
+<meta name="description" content="Introduction In this article I&amp;rsquo;ll explain how I build my first website using the static site generator Hugo. We&amp;rsquo;ll discuss how to build your personal website locally and publish it on GitHub.
 My main goal was to build a website to write articles about topics I&amp;rsquo;m interested in. First let&amp;rsquo;s talk about some requirements I had in the first place:
  Write articles with a markup language (Markdown) Minimalistic, fast and good looking Free of charge Display of mathematical expressions described via a LaTeX-style syntax  In general a static site generator builds a website which is delivered to the user exactly as it is stored." />
 <meta name="keywords" content="" />
@@ -44,12 +44,12 @@ My main goal was to build a website to write articles about topics I&amp;rsquo;m
 
 
 <meta itemprop="name" content="How to make a static website">
-<meta itemprop="description" content="Introduction In this article I&rsquo;ll explain how I build my first website using the static site generator Hugo. We&rsquo;ll discuss how to build your personal website locally and publish it.
+<meta itemprop="description" content="Introduction In this article I&rsquo;ll explain how I build my first website using the static site generator Hugo. We&rsquo;ll discuss how to build your personal website locally and publish it on GitHub.
 My main goal was to build a website to write articles about topics I&rsquo;m interested in. First let&rsquo;s talk about some requirements I had in the first place:
  Write articles with a markup language (Markdown) Minimalistic, fast and good looking Free of charge Display of mathematical expressions described via a LaTeX-style syntax  In general a static site generator builds a website which is delivered to the user exactly as it is stored.">
 <meta itemprop="datePublished" content="2020-12-26T16:03:51+01:00" />
 <meta itemprop="dateModified" content="2020-12-26T16:03:51+01:00" />
-<meta itemprop="wordCount" content="1044">
+<meta itemprop="wordCount" content="1069">
 <meta itemprop="image" content="https://jaweyl.github.io/jaweyl/"/>
 
 
@@ -60,14 +60,14 @@ My main goal was to build a website to write articles about topics I&rsquo;m int
 <meta name="twitter:image" content="https://jaweyl.github.io/jaweyl/"/>
 
 <meta name="twitter:title" content="How to make a static website"/>
-<meta name="twitter:description" content="Introduction In this article I&rsquo;ll explain how I build my first website using the static site generator Hugo. We&rsquo;ll discuss how to build your personal website locally and publish it.
+<meta name="twitter:description" content="Introduction In this article I&rsquo;ll explain how I build my first website using the static site generator Hugo. We&rsquo;ll discuss how to build your personal website locally and publish it on GitHub.
 My main goal was to build a website to write articles about topics I&rsquo;m interested in. First let&rsquo;s talk about some requirements I had in the first place:
  Write articles with a markup language (Markdown) Minimalistic, fast and good looking Free of charge Display of mathematical expressions described via a LaTeX-style syntax  In general a static site generator builds a website which is delivered to the user exactly as it is stored."/>
 
 
 
     <meta property="og:title" content="How to make a static website" />
-<meta property="og:description" content="Introduction In this article I&rsquo;ll explain how I build my first website using the static site generator Hugo. We&rsquo;ll discuss how to build your personal website locally and publish it.
+<meta property="og:description" content="Introduction In this article I&rsquo;ll explain how I build my first website using the static site generator Hugo. We&rsquo;ll discuss how to build your personal website locally and publish it on GitHub.
 My main goal was to build a website to write articles about topics I&rsquo;m interested in. First let&rsquo;s talk about some requirements I had in the first place:
  Write articles with a markup language (Markdown) Minimalistic, fast and good looking Free of charge Display of mathematical expressions described via a LaTeX-style syntax  In general a static site generator builds a website which is delivered to the user exactly as it is stored." />
 <meta property="og:type" content="article" />
@@ -147,7 +147,7 @@ My main goal was to build a website to write articles about topics I&rsquo;m int
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        5 minutes
+        6 minutes
 
         
       </p>
@@ -162,8 +162,8 @@ My main goal was to build a website to write articles about topics I&rsquo;m int
 
       <div class="post-content">
         <h1 id="introduction">Introduction</h1>
-<p>In this article I&rsquo;ll explain how I build my first website using the <em>static site generator</em> <a href="https://gohugo.io"><strong>Hugo</strong></a>. We&rsquo;ll discuss how to build your personal website locally and publish it.</p>
-<p>My main goal was to build a website to write articles about topics I&rsquo;m interested in. First let&rsquo;s talk about some requirements I had in the first place:</p>
+<p>In this article I&rsquo;ll explain how I build my first website using the <em>static site generator</em> <a href="https://gohugo.io"><strong>Hugo</strong></a>. We&rsquo;ll discuss how to build your personal website locally and publish it on <em>GitHub</em>.</p>
+<p>My main goal was to build a website to write articles about topics I&rsquo;m interested in. First let&rsquo;s talk about some <strong>requirements</strong> I had in the first place:</p>
 <ul>
 <li>Write articles with a markup language (<a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>)</li>
 <li>Minimalistic, fast and good looking</li>
@@ -210,11 +210,13 @@ draft: false
 ---
 </code></pre><p>Now you can write some text below the header of this file.</p>
 <h2 id="5-compile-and-hugo-server">5. Compile and Hugo Server</h2>
-<p>In the next step we convert our <em>.md</em> files (writing format) to <em>.html</em> files (publishing format) by calling the following command:</p>
+<p>In the next step we convert our <em>.md</em> files (writing format) to <em>.html</em> files (publishing format). First, let&rsquo;s define the target folder of our compiled website in our configuration file (<em>config.toml</em>) as following:</p>
+<pre><code class="language-config" data-lang="config">publishDir = &quot;docs&quot;
+</code></pre><p>Next, we do the actual conversion by calling the following command:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo
 </code></pre></div><p>in our project folder - that&rsquo;s it! Now you should see some <em>.html</em> and <em>.css</em> files in the <code>docs</code> folder.</p>
 <p>Hugo has also a build-in server to render your local website on the fly.
-Just call the following command</p>
+Just call the following command:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server
 </code></pre></div><p>to visualize the whole website locally. This is a convenient tool to write and check articles while writing. In case you also want to enforce to render <em>drafts</em> just set the corresponding flag <code>-D</code> as follwing:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo -D server
@@ -224,9 +226,7 @@ Just call the following command</p>
 <p>Just create a new repository (public) and add the remote branch to your local repository.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github.com:JaWeyl/mysite.git
 </code></pre></div><p>Next we need to make some changes to our configuration file in order to host our website on <em>GitHub</em> properly.</p>
-<p>First, let&rsquo;s define the target folder of our compiled website in our configuration file as following:</p>
-<pre><code class="language-config" data-lang="config">publishDir = &quot;docs&quot;
-</code></pre><p>We also need to specify the url of our website which - by default - consists of your <em>GitHub</em> username and the name of your repository:</p>
+<p>We need to specify the url of our website which - by default - consists of your <em>GitHub</em> username and the name of your repository:</p>
 <pre><code class="language-config" data-lang="config">baserul = &quot;https://jaweyl.github.io/mysite/&quot;
 </code></pre><p>Now we also need to tell <em>GitHub</em> where the compiled version of our website lives s.t. it can be displayed.
 This needs to be specified within the settings:</p>
@@ -247,7 +247,7 @@ Now, there is a JavaScript library called <em>MathJax</em> that enables to rende
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span>
   <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span>&gt;
 &lt;/<span style="color:#f92672">script</span>&gt;
-</code></pre></div><p>To ensure that this code is included in all pages you can just paste it the <em>footer.html</em> which can be found at <code>/themes/layouts/partials</code>. For exmaple my <em>footer.html</em> looks like the following:</p>
+</code></pre></div><p>To ensure that this code is included in all pages you can just paste it to the <em>footer.html</em> which can be found at <code>/themes/layouts/partials</code>. For exmaple my <em>footer.html</em> looks like the following:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">footer</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;footer&#34;</span>&gt;
     &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;footer__inner&#34;</span>&gt;
         &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;footer__content&#34;</span>&gt;
@@ -271,8 +271,13 @@ Now, there is a JavaScript library called <em>MathJax</em> that enables to rende
       <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span>&gt;
     &lt;/<span style="color:#f92672">script</span>&gt;
 &lt;/<span style="color:#f92672">footer</span>&gt;
-</code></pre></div><p>Now it becomes easy to write mathematical expressions like: $$c^2=a^2 + b^2$$</p>
-<h3 id="references">References</h3>
+</code></pre></div><p>Now it becomes easy to write mathematical expressions like:
+$$c^2=a^2 + b^2$$</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-latex" data-lang="latex"><span style="color:#e6db74">$$</span>c^<span style="color:#ae81ff">2</span><span style="color:#f92672">=</span>a^<span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> b^<span style="color:#ae81ff">2</span><span style="color:#e6db74">$$</span>
+</code></pre></div><p>or
+$$\begin{bmatrix}a &amp; b\\ c &amp; d\end{bmatrix}$$</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-latex" data-lang="latex"><span style="color:#e6db74">$$</span>\begin{bmatrix}a &amp; b\\\ c &amp; d\end{bmatrix}<span style="color:#e6db74">$$</span>
+</code></pre></div><h3 id="references">References</h3>
 <ul>
 <li>Thanks to <a href="https://www.youtube.com/watch?v=3wkR8GyDODs">GeekLaunch</a> for an excellent tutorial about how to build a <em>static website</em>.</li>
 <li><a href="https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/mathjax/">MathJax Support</a></li>
@@ -295,7 +300,7 @@ Now, there is a JavaScript library called <em>MathJax</em> that enables to rende
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        1044 Words
+        1069 Words
       </p>
 
       <p>

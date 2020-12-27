@@ -6,9 +6,9 @@ draft: false
 
 # Introduction
 
-In this article I'll explain how I build my first website using the *static site generator* [**Hugo**](https://gohugo.io). We'll discuss how to build your personal website locally and publish it.
+In this article I'll explain how I build my first website using the *static site generator* [**Hugo**](https://gohugo.io). We'll discuss how to build your personal website locally and publish it on *GitHub*.
 
-My main goal was to build a website to write articles about topics I'm interested in. First let's talk about some requirements I had in the first place:
+My main goal was to build a website to write articles about topics I'm interested in. First let's talk about some **requirements** I had in the first place:
 
 - Write articles with a markup language ([Markdown](https://en.wikipedia.org/wiki/Markdown))
 - Minimalistic, fast and good looking
@@ -82,14 +82,19 @@ draft: false
 Now you can write some text below the header of this file.
 
 ## 5. Compile and Hugo Server
-In the next step we convert our *.md* files (writing format) to *.html* files (publishing format) by calling the following command:
+In the next step we convert our *.md* files (writing format) to *.html* files (publishing format). First, let's define the target folder of our compiled website in our configuration file (*config.toml*) as following:
+```config
+publishDir = "docs"
+```
+
+Next, we do the actual conversion by calling the following command:
 ```bash
 hugo
 ```
 in our project folder - that's it! Now you should see some *.html* and *.css* files in the ```docs``` folder.
 
 Hugo has also a build-in server to render your local website on the fly.
-Just call the following command
+Just call the following command:
 ```bash
 hugo server
 ```
@@ -109,12 +114,7 @@ git remote add origin git@github.com:JaWeyl/mysite.git
 
 Next we need to make some changes to our configuration file in order to host our website on *GitHub* properly.
 
-First, let's define the target folder of our compiled website in our configuration file as following:
-```config
-publishDir = "docs"
-```
-
-We also need to specify the url of our website which - by default - consists of your *GitHub* username and the name of your repository:
+We need to specify the url of our website which - by default - consists of your *GitHub* username and the name of your repository:
 ```config
 baserul = "https://jaweyl.github.io/mysite/"
 ```
@@ -142,7 +142,7 @@ Now, there is a JavaScript library called *MathJax* that enables to render types
 </script>
 ```
 
-To ensure that this code is included in all pages you can just paste it the *footer.html* which can be found at ```/themes/layouts/partials```. For exmaple my *footer.html* looks like the following:
+To ensure that this code is included in all pages you can just paste it to the *footer.html* which can be found at ```/themes/layouts/partials```. For exmaple my *footer.html* looks like the following:
 ```html
 <footer class="footer">
     <div class="footer__inner">
@@ -168,7 +168,16 @@ To ensure that this code is included in all pages you can just paste it the *foo
     </script>
 </footer>
 ```
-Now it becomes easy to write mathematical expressions like: $$c^2=a^2 + b^2$$
+Now it becomes easy to write mathematical expressions like: 
+$$c^2=a^2 + b^2$$
+```latex
+$$c^2=a^2 + b^2$$
+```
+or
+$$\begin{bmatrix}a & b\\\ c & d\end{bmatrix}$$
+```latex
+$$\begin{bmatrix}a & b\\\ c & d\end{bmatrix}$$
+```
 
 ### References
 - Thanks to [GeekLaunch](https://www.youtube.com/watch?v=3wkR8GyDODs) for an excellent tutorial about how to build a *static website*.

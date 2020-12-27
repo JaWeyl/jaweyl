@@ -14,7 +14,7 @@
       <pubDate>Sat, 26 Dec 2020 16:03:51 +0100</pubDate>
       
       <guid>https://jaweyl.github.io/jaweyl/posts/2020/12/how-to-make-a-static-website/</guid>
-      <description>Introduction In this article I&amp;rsquo;ll explain how I build my first website using the static site generator Hugo. We&amp;rsquo;ll discuss how to build your personal website locally and publish it.
+      <description>Introduction In this article I&amp;rsquo;ll explain how I build my first website using the static site generator Hugo. We&amp;rsquo;ll discuss how to build your personal website locally and publish it on GitHub.
 My main goal was to build a website to write articles about topics I&amp;rsquo;m interested in. First let&amp;rsquo;s talk about some requirements I had in the first place:
  Write articles with a markup language (Markdown) Minimalistic, fast and good looking Free of charge Display of mathematical expressions described via a LaTeX-style syntax  In general a static site generator builds a website which is delivered to the user exactly as it is stored.</description>
     </item>
