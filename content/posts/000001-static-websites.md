@@ -134,7 +134,7 @@ Finally, push your code to the remote repository and visit your own homepage!
 
 ## 7. MathJax for Mathematical Expressions
 We also want to display mathematical expressions described via LaTex-style syntax.
-Now there is a JavaScript library called *MathJax* that enables to render typeset mathematics on your website. Just include the following code snippet to the source of your page:
+Now, there is a JavaScript library called *MathJax* that enables to render typeset mathematics on your website. Just include the following code snippet to the source of your page:
 
 ```html
 <script type="text/javascript"
@@ -168,7 +168,7 @@ To ensure that this code is included in all pages you can just paste it the *foo
     </script>
 </footer>
 ```
-Now it is easy to write mathematical expression like: $$c^2=a^2 + b^2$$
+Now it becomes easy to write mathematical expressions like: $$c^2=a^2 + b^2$$
 
 ### References
 - Thanks to [GeekLaunch](https://www.youtube.com/watch?v=3wkR8GyDODs) for an excellent tutorial about how to build a *static website*.
